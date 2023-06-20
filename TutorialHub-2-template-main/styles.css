@@ -15,8 +15,11 @@ body {
 .grid {
   /* add correct code to place the grid elements 
   one beside the other equally.   */
+  font-size: 50%;
   display:flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  
   font-family: sans-serif;
 }
 
